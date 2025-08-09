@@ -15,3 +15,15 @@ variable "private-cidr-1"{
     type = string
     description = "private subnet cidr range"
 }
+variable "private-cidr-2" {
+  default = "10.0.4.0/24"
+    type = string
+}
+variable "private-db-cidr-1"{
+default = "10.0.5.0/24"
+    type = string
+}
+variable "private-db-cidr-2"{
+default = "10.0.6.0/24"
+    type = string
+}
